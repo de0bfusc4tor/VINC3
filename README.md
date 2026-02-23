@@ -23,8 +23,8 @@ A surgical FFT analyzer using a pixel-exact inverse-logarithmic frequency sweep.
 
 ### 2. Spectrogram_V (Temporal History)
 Visualizes spectral evolution over time in a 3D space.
-*   **Waterfall 3D**: Features a true descending perspective projection where new data emerges from a receding horizon and flows toward the viewer.
 *   **Ridge Mode**: Classical overlapping spectral ridges with time-decay luminosity.
+*   **Colors**: Cyan, purple, green and red.
 
 ### 3. FFT Meter (Tactical Tracking)
 Designed for identifying resonant peaks with military precision.
@@ -41,7 +41,7 @@ A high-energy time-domain visualizer mimicking the look of vintage hardware.
 *   **Electron Beam**: Employs a multi-pass rendering engine for "white-hot" core traces and soft bloom effects.
 *   **Dynamic Trigger**: Intelligent zero-crossing alignment for stable waveform viewing.
 
-### 6. Stereo Suite (Spatial Imagery)
+### 6. Stereo Meter (Spatial Imagery)
 *   **Vectorscope (Goniometer)**: High-refresh Lissajous plotter for stereo field analysis.
 *   **Stereo Spectral Dist**: A 2D spectral cloud mapping frequency against pan position.
 *   **Correlation Meter**: Real-time phase coherency monitoring from -1.0 to +1.0.
@@ -49,14 +49,18 @@ A high-energy time-domain visualizer mimicking the look of vintage hardware.
 ### 7. Chromatic Wave (Frequency-Amplitude Sync)
 A scrolling amplitude history where the color of each segment represents the dominant frequency at that moment.
 *   **HSLA Mapping**: Lower frequencies shift toward purple/blue; higher frequencies toward pink/white.
-
-### 8. Peak Analyzer (Headroom Telemetry)
+*   **Colors**: Cyan, purple, green and red.
+  
+### 8. Peak Amp (Headroom Telemetry)
 *   **Digital Margin**: Tracks the exact distance between your signal and 0dBFS.
 *   **Peak Hold**: A high-persistence "ghost" line that preserves the highest digital peak until manual reset.
 
 ### 9. Spectrogram Heatmap (Density Mapping)
 A vertical-scroll heatmap providing a top-down view of spectral density.
 *   **Thermal Gradient**: Uses a custom color palette (Black -> Cyan -> White) to represent intensity.
+
+### 10. Stereo Spectral
+A spectral waveform.
 
 ---
 
