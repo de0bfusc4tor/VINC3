@@ -94,6 +94,6 @@ Built and tested for the modern macOS ecosystem:
 ## 🧪 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
 
 - Sponsor / Benefactor : Vincent P.
-- Development / Creation : [De0bfusc4te](https://github.com/de0bfusc4tor)
+- Development / Creation : [Deobfuscate](https://github.com/de0bfusc4tor)
 
 ---
