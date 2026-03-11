@@ -1,4 +1,4 @@
-# Vinc3 - Prp DSP Analysis
+# Vinc3 - Pro DSP Analysis
 
 > Audio Visual Analysis for Music Production.
 
