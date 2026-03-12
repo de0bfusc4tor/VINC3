@@ -1,15 +1,11 @@
 # Vinc3 - Pro DSP Analysis
 
-> Audio Visual Analysis for Music Production.
+> _Precision Audio Visual Analysis for music production. Designed as a **Native Offline Application**, it leverages a 64-bit floating-point DSP core to provide real-time telemetry of complex audio signals without any external dependencies or latency-inducing server processing._
 
 ![Under Development](https://img.shields.io/badge/Status-Under%20Development-orange)
 ![macOS Support](https://img.shields.io/badge/macOS-Sonoma%20%7C%20Sequoia%20%7C%20Tahoe-000000?style=flat-square&logo=apple&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Architecture-Universal%20(Silicon%20%26%20Intel)-606060?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-Standalone-00CED1?style=flat-square)
-
----
-
-**Vinc3** is a professional audio analysis workstation engineered for performance and aesthetic clarity. Designed as a **Native Offline Application**, it leverages a 64-bit floating-point DSP core to provide real-time telemetry of complex audio signals without any external dependencies or latency-inducing server processing.
 
 ---
 
@@ -62,7 +58,6 @@
 ## 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
 
 - **Sponsor / Benefactor**: Vincent P.
-- **Development / Creation**: [Deobfuscate](https://github.com/de0bfusc4tor)
 
 ---
 
