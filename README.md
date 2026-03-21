@@ -1,4 +1,4 @@
-# 𝐕𝐢𝐧𝐜𝟑 - 𝐃𝐒𝐏 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐚𝐥𝐲𝐳𝐞𝐫
+# 𝐕𝐈𝐍𝐂𝟑 - 𝐃𝐒𝐏 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐚𝐥𝐲𝐳𝐞𝐫
 
 > _3D Spectral Analysis & DSP Metering Suite. Designed for engineers, producers, and sound designers to provide immersive 3D frequency visualization and precision audio monitoring in a minimalist interface._
 
@@ -15,40 +15,28 @@
 
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-###  𝐒𝐩𝐞𝐜𝐭𝐫𝐨𝐠𝐫𝐚𝐦
-Three-dimensional view of your audio's spectral energy.
-- **Three Modes**: **Sphere** (radial energy core), **Wave** (terrain landscape), and **Cube** (geometric structure).
-- **Dynamic Physics**: Features a 50% increased spike multiplier for highly responsive, energetic animations that react to overall loudness.
+- **3D Engine**: Three-dimensional audio spectrogram engine.
+- **Standalone**: Runs as a native application on macOS (Sonoma, Sequoia, Tahoe) without a browser.
+- **Zero Dependencies**: Fully offline capable. No internet connection required.
+- **Minimalist UI**: Dark-themed, high-contrast interface optimized for low-light studio environments.
 
-###  𝐅𝐅𝐓 𝐌𝐞𝐭𝐞𝐫 (𝐏𝐫𝐞𝐜𝐢𝐬𝐢𝐨𝐧 𝐅𝐫𝐞𝐪𝐮𝐞𝐧𝐜𝐲)
-High-resolution Fast Fourier Transform analyzer for surgical frequency monitoring.
-- **Peak Tracking**: Automatic peak detection and labeling of the most prominent frequencies.
-- **Musical Note ID**: Translates raw frequencies into musical notes (e.g., A4, C#2) for tuning and harmonic analysis.
-- **Logarithmic Scaling**: Detailed response from 20Hz to 20kHz with high-DPI grid rendering.
+---
 
-###  𝐋𝐞𝐯𝐞𝐥 𝐌𝐞𝐭𝐞𝐫𝐬 (𝐋𝐨𝐮𝐝𝐧𝐞𝐬𝐬 & 𝐃𝐲𝐧𝐚𝐦𝐢𝐜𝐬)
-Industry-standard monitoring to ensure loudness compliance.
-- **LUFS Monitoring**: Real-time tracking of Momentary (M), Short-term (S), and Integrated (I) LUFS.
-- **Peak & RMS**: Accurate dBFS monitoring with persistent "Max Peak" hold.
-- **Crest Factor**: Visualizes the peak-to-RMS ratio; indicators turn **Vibrant Red** when audio is heavily limited (< 6dB) or exceeding safety thresholds (-3dB).
+## 𝐌𝐨𝐝𝐮𝐥𝐞𝐬
+- **Spectrogram**: Three-dimensional view of your audio's spectral energy. Three Modes available. **Sphere** (radial energy core), **Wave** (terrain landscape), and **Cube** (geometric structure).
 
-###  𝐀𝐧𝐚𝐥𝐨𝐠 𝐕𝐔 𝐌𝐞𝐭𝐞𝐫 (𝐏𝐞𝐫𝐜𝐞𝐢𝐯𝐞𝐝 𝐖𝐞𝐢𝐠𝐡𝐭)
-Classic hardware-inspired ballistic response for monitoring signal "weight".
-- **Ballistics**: Standard 300ms integration time mimics physical studio gear.
-- **Hot Zone**: Ticks and needles turn red above 0dB to signal saturation levels.
+- **FFT Meter**: HD Fast Fourier Transform analyzer for surgical frequency monitoring. Incorporated Peak Tracking with automatic peak detection and labeling of the most prominent frequencies. Logarithmic Scaling with detailed response from 20Hz to 20kHz with high-DPI grid rendering.
 
-###  𝐎𝐬𝐜𝐢𝐥𝐥𝐨𝐬𝐜𝐨𝐩𝐞
-- **Time Domain**: Real-time linear oscilloscope visualization.
-- **Left & Right**: Monitor stereo image.
+- **Level Meters**: Industry-standard monitoring to ensure loudness compliance with real-time tracking of Momentary (M), Short-term (S), and Integrated (I) LUFS. Accurate dBFS monitoring with persistent "Max Peak" hold. Crest Factor trigger visualizes the peak-to-RMS ratio; indicators turn **Vibrant Red** when audio is heavily limited (< 6dB) or exceeding safety thresholds (-3dB).
 
-###  𝐒𝐭𝐞𝐫𝐞𝐨 𝐌𝐨𝐧𝐢𝐭𝐨𝐫
-- **Triggering**. Stable **Zero-Crossing Trigger**.
-- **Phase & Width**: Monitor stereo image, phase correlation and the balance between Mid/Side information to ensure mono compatibility.
+- **Analog VU Meter**: Classic hardware-inspired ballistic response for monitoring signal "weight". Ballistics design with standard 300ms integration time mimics physical studio gear. Hot Zone trigger with ticks and needles that turns red above 0dB to signal saturation levels.
 
-###  𝐋𝐢𝐧𝐞𝐚𝐫 𝐒𝐩𝐞𝐜𝐭𝐫𝐨𝐠𝐫𝐚𝐦 (𝐒𝐩𝐞𝐜𝐭𝐫𝐚𝐥 𝐇𝐞𝐚𝐭𝐦𝐚𝐩)
-A scrolling logarithmic history of frequency energy flowing from **Left to Right**.
-- **History**: Identify long-term resonances and spectral imbalances over a continuous timeline.
-- **Teal Gradient**: Optimized for clarity, removing clutters for a pure data-driven look.
+- **Oscilloscope**: Real-time linear oscilloscope visualization with Left & Right for stereo image monitoring.
+
+- **Stereo Monitor**: Stable _Zero-Crossing_ trigger. Phase and Width monitoring with phase correlation and the balance between Mid/Side information to ensure mono compatibility.
+
+- **Linear Spectrogram**: A scrolling logarithmic history of frequency energy flowing from **Left to Right**. Monitors long-term resonances and spectral imbalances over a continuous timeline.
+
 ---
 
 ## 𝐒𝐲𝐬𝐭𝐞𝐦 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
@@ -77,16 +65,22 @@ Required to analyze audio from your interface or built-in mic.
 - `System Settings` > `Privacy & Security` > `Microphone` > Enable `VINC3`.
 
 ### 𝟐. 𝐒𝐜𝐫𝐞𝐞𝐧 𝐑𝐞𝐜𝐨𝐫𝐝𝐢𝐧𝐠
-Required for **System Audio Loopback** (capturing audio from other apps).
+Required for **System Audio Loopback** (capturing audio from other softwares).
 - `System Settings` > `Privacy & Security` > `Screen Recording` > Enable `VINC3`.
-- _Note: `VINC3` does not record pixels; this is a macOS requirement for internal audio routing._
+
+- _Note: `VINC3` does not record a single pixels. It doesn't record audio. It doesn't record video. It doesn't require Internet. These permissions are macOS requirements for internal audio routing._
 
 ---
 
 ## 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐬
 
-- **Resizable & Mobile Software**
-- **Resizable & Mobile Modules**
+- **MIC**: Audio source from your Microphone.
+- **SYSTEM**: Audio source from your System.
+- **INITIALIZE**: Initialize the engine with your selected audio source.
+- **Resizable & mobile software**: Select the borders to resize or move `VINC3` window
+- **Resizable & mobile modules**: Select the bottom right of the module to resize it. Hold `Left Click` to move the module.
+- **Reset**: Revert the modules positions to default.
+- **STOP**: Stop the engine.
 
 ---
 
