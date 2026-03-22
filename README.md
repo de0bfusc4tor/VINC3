@@ -69,7 +69,7 @@ Required to analyze audio from your interface or built-in mic.
 Required for **System Audio Loopback** (capturing audio from other softwares).
 - `System Settings` > `Privacy & Security` > `Screen Recording` > Enable `VINC3`.
 
-- _Note: `VINC3` does not record a single pixels. It doesn't record audio. It doesn't record video. It doesn't require Internet. These permissions are macOS requirements for internal audio routing._
+- _Reminder: `VINC3` does not record a single pixel. It doesn't record audio. It doesn't record video. It doesn't require Internet. These permissions are macOS requirements for internal audio routing._
 
 ---
 
