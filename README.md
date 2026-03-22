@@ -36,7 +36,7 @@
 
 - **Stereo Monitor**: Stable _Zero-Crossing_ trigger. Phase and Width monitoring with phase correlation and the balance between Mid/Side information to ensure mono compatibility.
 
-- **Linear Spectrogram**: A scrolling logarithmic history of frequency energy flowing from **Left to Right**. Monitors long-term resonances and spectral imbalances over a continuous timeline.
+- **Linear Spectrogram**: A scrolling logarithmic history of frequency energy flowing from Left to Right. Monitors long-term resonances and spectral imbalances over a continuous timeline.
 
 ---
 
