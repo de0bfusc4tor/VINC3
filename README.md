@@ -30,7 +30,7 @@
 
 - **Level Meters**: Industry-standard monitoring to ensure loudness compliance with real-time tracking of Momentary (M), Short-term (S), and Integrated (I) LUFS. Accurate dBFS monitoring with persistent "Max Peak" hold. Crest Factor trigger visualizes the peak-to-RMS ratio; indicators turn **Vibrant Red** when audio is heavily limited (< 6dB) or exceeding safety thresholds (-3dB).
 
-- **Analog VU Meter**: Classic hardware-inspired ballistic response for monitoring signal "weight". Ballistics design with standard 300ms integration time mimics physical studio gear. Hot Zone trigger with ticks and needles that turns red above 0dB to signal saturation levels.
+- **Analog VU Meter**: Classic hardware inspired ballistic response for monitoring signal "weight". Ballistics design with standard 300ms integration time mimics physical studio gear. Hot Zone trigger with ticks and needles that turns red above 0dB to signal saturation levels.
 
 - **Oscilloscope**: Real-time linear oscilloscope visualization with Left & Right for stereo image monitoring.
 
